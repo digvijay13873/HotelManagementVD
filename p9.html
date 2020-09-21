@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Membership Form</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.ytimg.com/vi/H2UxGO2F_ig/maxresdefault.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.container{
+		 padding: 40px;
+		}
+		.jumbotron{
+			padding: 30px;
+		}
+		.space{
+			padding-top: 15px;
+		}
+		.navbarSpecial{
+			font-weight: 50px;
+			font-style: bold;
+			background-color: white;		
+		}
+	</style>
+</head>
+<body>
+
+
+<div class="container">
+<div class="jumbotron">
+
+<div class="navbarSpecial">
+<ul class="nav nav-tabs">
+  <li role="presentation"><a href="FrontPageUI.html"><b>Home</b></a></li>
+</ul>
+</div>
+
+<h1>Membership Registration Form</h1>
+
+
+<form>
+
+<p class="space">Your name:</p>
+<input type="text" name="First name" placeholder="First name" required="true">
+<input type="text" name="Last name" placeholder="Last name" required="true">
+
+<p class="space">Your Mail-ID:</p>
+<input type="Email" name="Email ID" placeholder="Email ID" required="true">
+
+<p class="space">Contact Number:</p>
+<input type="Number" name="Cell Number" placeholder="Enter number" required="true">
+
+<p class="space">Your Opinion About Our Service</p>
+<textarea name="Opinion"></textarea>
+
+<p class="space">What You Liked Most Of Us?</p>
+
+<label for="Your Dining">Dining System </label>
+<input name="choice" id="Dining" type="radio">
+
+<label for="Lodging">Your Lodging System </label>
+<input name="choice" id="Lodging" type="radio">
+
+<label for="Function Hall"> Your Event Management</label>
+<input name="choice" id="EventManagement" type="radio" >
+
+<label for="NotYet"> Not Yet Experienced 'Taaj'</label>
+<input name="choice" id="NotYet" type="radio">
+
+<p class="space">Which plan you wish to select?</p>
+<select name="Plan">
+	<option value="Basic"> Basic Plan(100/month) </option>
+	<option value="Silver"> Silver Membership(200/month)</option>
+	<option value="Golden"> Golden Membership(500/month)</option>
+</select>
+
+<p class="space">Select Mode of payment.</p>
+<select name="money">
+	<option value="any"> Debit/Credit Card  </option>
+	<option value="upi"> UPI</option>
+	<option value="Paypal"> Paypal</option>
+</select>
+
+<p class="space">Are you willing to receive our mails?</p>
+
+<label for="yes"> Yes:</label>
+<input name="experience" id="yes" type="radio">
+
+<label for="no">  No:</label>
+<input name="experience" id="no" type="radio">
+
+
+<p class="space">
+<label for="terms"> I agree to terms and conditions</label>
+<input name="terms" id="terms" type="radio" required="true">
+</p>
+
+<button>Submit</button>
+
+</form>
+<h2>Wait For Our Mail After Submitting!</h2>
+<!-- <h3>back to <a href="sanchit.html"> HOME</a></h3>
+ -->
+</div>
+</div>
+</body>
+</html> 
